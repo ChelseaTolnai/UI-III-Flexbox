@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+
 /* ALL PAGES */
 
 body {
@@ -175,6 +176,7 @@ footer {
 	font-size: 14px;
 }
 
+
 /* INDEX PAGE */
 
 .index-page .start-button {
@@ -192,6 +194,7 @@ footer {
 	margin: 30px auto;
 	width: 100%;
 }
+
 
 /* SERVICES PAGE */
 
@@ -236,6 +239,7 @@ footer {
 	margin-top: 20px;
 	padding: 10px 40px;
 }
+
 
 /* VISION PAGE */
 
