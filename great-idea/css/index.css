@@ -64,3 +64,210 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* ALL PAGES */
+
+body {
+	margin: 0 auto;
+	background-color: black;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1024px;
+	min-height: 1536px;
+	padding: 10px 75px;
+	background-color: white;
+}
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+}
+
+h2 {
+	font-weight: 900;
+}
+
+p {
+	line-height: 1.2;	
+}
+
+header {
+	margin-top: 17px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav {
+	display: flex;
+    width: 600px;
+	justify-content: space-between;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 900;
+	color: lightgray;	
+}
+
+.main {
+	margin: 70px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-text {
+	text-align: center;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.content {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 40px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.sub-type {
+	border: 1px solid black;
+	background-color: rgba(211, 211, 211, .3);
+	width: 415px;
+	margin-bottom: 40px;
+	padding: 20px;
+}
+
+.info {
+	margin: 40px 0 80px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.info-text {
+	width: 50%;
+}
+
+.info-text ul {
+	padding: 20px;
+	line-height: 2;
+	list-style-type: square;
+}
+
+.contact {
+	padding: 40px 0;
+}
+
+address p {
+	margin-bottom: 14px;
+}
+
+footer {
+	text-align: center;
+	font-size: 14px;
+}
+
+/* INDEX PAGE */
+
+.index-page .start-button {
+	border: 1px solid black;
+	width: 35%;
+	padding: 8px 0;
+}
+
+.index-page .first, .last {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.index-page .middle {
+	margin: 30px auto;
+	width: 100%;
+}
+
+/* SERVICES PAGE */
+
+.services-page h1 {
+	text-align: left;
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.services-header {
+	margin: 20px 0 40px;
+}
+
+.services-header img {
+	width: 100%;
+	margin-bottom: 35px;
+}
+
+.services-page .content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	padding-bottom: 0px;
+}
+
+@media (max-width: 600px) {
+	.services-page .content {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.services-button {
+	display: inline-block;
+	background: white;
+	color: black;
+	font-size: 12px;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 20px;
+	padding: 10px 40px;
+}
+
+/* VISION PAGE */
+
+.vision-page .main-text {
+	background-color: black;
+	color: white;
+	height: 341px;
+}
+
+.vision-page h1 {
+	padding: 70px 0;
+}
+
+.vision-page .content {
+	background-image: url(https://as2.ftcdn.net/jpg/00/94/57/87/500_F_94578712_zwodgNZU8utWqGh6LXwhJC9FfggVcA7R.jpg) ;
+	background-repeat: no-repeat;
+	background-size: 100% 90%;
+	background-position: center;
+}
+
+.vision-page .sub-type {
+	background-color: rgba(211, 211, 211, .8);
+	border: none;
+	width: 100%;
+}
+
+.vision-page .sub-type:first-child {
+	margin-top: 30px;
+}
+
+.vision-page .info-text {
+	color: white;
+	background-color: black;
+	padding: 20px;
+}
